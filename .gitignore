@@ -1,0 +1,14 @@
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if we add static site generation later)
+_site/
+node_modules/
