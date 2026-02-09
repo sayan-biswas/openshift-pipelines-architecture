@@ -66,11 +66,17 @@ OpenShift Pipelines ADRs cover **product-level decisions**:
 - Konflux-specific configuration
 - Integration with Konflux services
 
+### Quality Engineering
+- Test strategy and architecture
+- QE tooling decisions
+- Test coverage requirements
+- E2E and integration test approach
+
 ## Gray areas
 
 When in doubt:
 
-1. **Start upstream** - propose a TEP first
+1. **Start upstream** - propose a TEP or bring it up in [Tekton working groups](https://github.com/tektoncd/community/blob/main/working-groups.md)
 2. **Reference, don't duplicate** - if a TEP exists, link to it
 3. **Ask** - open an issue here if unsure
 

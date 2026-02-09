@@ -2,6 +2,17 @@
 
 Architecture Decision Records (ADRs) and documentation for OpenShift Pipelines.
 
+## Why this repository?
+
+OpenShift Pipelines makes many product-level decisions that aren't captured anywhere. This repository exists to:
+
+- **Help newcomers** understand what's happening, why we do things a certain way, and how decisions were made
+- **Document context** so we don't lose the reasoning behind past decisions
+- **Enable async collaboration** across time zones and teams
+- **Provide transparency** for anyone interested in how OpenShift Pipelines is built and maintained
+
+Without this, knowledge lives only in people's heads or scattered across Slack threads and meeting notes.
+
 ## What belongs here?
 
 This repository documents **product-level decisions** for OpenShift Pipelines - the Red Hat distribution of Tekton.
@@ -18,14 +29,17 @@ For Tekton feature proposals and API changes, see [Tekton Enhancement Proposals 
 - Internal tooling and CI/CD decisions
 - Security and compliance requirements (FIPS, CVE response)
 - Konflux integration specifics
+- Quality Engineering (QE) strategy and test architecture
 
-### Out of scope (use TEPs instead)
+### Out of scope (file a TEP or bring it up in upstream working groups)
 
 - Tekton API changes (Pipeline, Task, TaskRun, etc.)
 - Tekton Operator behavior (TektonConfig, addon management)
 - New Tekton features
 - Tekton Results, Chains, Hub, Dashboard features
 - Anything that benefits the broader Tekton community
+
+If you have an idea that belongs upstream, file a [TEP](https://github.com/tektoncd/community/tree/main/teps) or bring it up during the [Tekton working group meetings](https://github.com/tektoncd/community/blob/main/working-groups.md).
 
 See [docs/scope.md](docs/scope.md) for detailed guidance.
 
